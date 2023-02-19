@@ -6,6 +6,11 @@ The script then hashes each thumbnail and then checks it against a previous hash
 
 If the hash is different it gets updated in Redis and a message is sent to a Discord webhook.
 
+## Config
+- `UPSTASH_REDIS_REST_URL`
+- `UPSTASH_REDIS_REST_TOKEN`
+- `DISCORD_WEBHOOK_URL` = Discord channel to post to
+
 ## Uses
 - Redis via Upstash
 - Discord Webhook
