@@ -14,4 +14,4 @@ If the hash is different it gets updated in Redis and a message is sent to a Dis
 - `zod` for validation of the RSS feed
 
 ## Todos
-- [ ] Upload thumbnail to some image storage and get back fresh URL to post to Discord (else Discord/Youtube use the cached old version)
+- [ ] Upload thumbnail to some image storage and get back fresh URL to post to Discord (else Discord/Youtube use the previous cached thumbnail)
