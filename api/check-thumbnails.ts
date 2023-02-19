@@ -4,8 +4,8 @@ import { z } from "zod";
 import { Redis } from "@upstash/redis";
 import { createHash } from "crypto";
 
-// const YT_CHANNEL_ID = "UCbRP3c757lWg9M-U7TyEkXA"; // https://www.youtube.com/@t3dotgg
-const YT_CHANNEL_ID = "UCkXG-z8ONIUGToBEwFEKE2w"; // https://www.youtube.com/@chrcit
+const YT_CHANNEL_ID = "UCbRP3c757lWg9M-U7TyEkXA"; // https://www.youtube.com/@t3dotgg
+// const YT_CHANNEL_ID = "UCkXG-z8ONIUGToBEwFEKE2w"; // https://www.youtube.com/@chrcit
 const MAX_DATE = new Date();
 MAX_DATE.setDate(MAX_DATE.getDate() - 7);
 
